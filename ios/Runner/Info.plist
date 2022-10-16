@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+    <string>I need the location to show the map to the user</string>
+	<key>io.flutter.embedded_views_preview</key>
+	<true/>
+	<key>MGLMapboxAccessToken</key>
+	<string>YOUR_TOKEN_HERE</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>

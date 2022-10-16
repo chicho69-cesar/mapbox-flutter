@@ -1,4 +1,6 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+import 'package:mapbox_flutter/src/views/fullscreenmap.dart';
 
 void main() => runApp(const MyApp());
 
@@ -7,17 +9,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const CupertinoApp(
-      title: 'Cupertino App',
+    return const MaterialApp(
+      title: 'Mapas App',
       debugShowCheckedModeBanner: false,
-      home: CupertinoPageScaffold(
-        navigationBar: CupertinoNavigationBar(
-          middle: Text('Cupertino App Bar'),
-        ),
-        child: Center(
-          child: Text('Hello World'),
-        ),
-      ),
+      home: FullScreenMap(),
     );
   }
 }
